@@ -1,0 +1,367 @@
+﻿@{
+    ViewData["Title"] = "Dinesh Nikam Portfolio";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"]</title>
+    <script src="~/js/index.js"></script>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- AOS Animation CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+    <link href="~/css/index.css" rel="stylesheet" />
+    <link href="~/css/Light.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+    
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+
+    <!-- Navbar -->
+        <!-- Hero Section -->
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex flex-column flex-md-row align-items-center justify-content-center text-center text-md-start bg-primary text-white" style="height: 90vh; padding: 2rem;">
+        <div class="hero-text flex-fill" data-aos="fade-right" data-aos-duration="1000">
+            <h1 class="display-4 fw-bold thero-img">Hi, I'm Dinesh Nikam</h1>
+            <h3><span id="typing-text" class="typewriter"></span></h3>
+            <p>Building scalable web apps using ASP.NET Core and modern frontend technologies.</p>
+            <div class="mb-3">
+                <a href="~/images/Dinesh nikam.jpg.jpg" class="btn btn-light btn-lg me-3" download>Download Resume</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+            </div>
+            <!-- Social Icons -->
+            <div class="social-icons mt-3">
+                <a href="https://github.com/dineshsnikam" target="_blank" class="text-white me-3 fs-4 social"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/dinesh-nikam-/" target="_blank" class="text-white me-3 fs-4 social"><i class="fab fa-linkedin"></i></a>
+                <a href="dineshnikam2018@gmail.com" class="text-white me-3 fs-4"><i class="fas fa-envelope social"></i></a>
+                <a href="" target="_blank" class="text-white fs-4"><i class="fab fa-instagram social"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-img-container flex-fill mt-4 mt-md-0 text-center" data-aos="fade-left" data-aos-duration="1000">
+            <img src="~/images/profile.png" alt="Dinesh Nikam" class="hero-img"/>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+        <h2 class="text-center mb-5" data-aos="fade-up">About Me</h2>
+        <div class="row align-items-center">
+            <div class="col-md-5" data-aos="fade-right">
+                <img src="~/images/WhatsApp_Image_2025-05-19_at_10.36.37_PM-removebg-preview.png" alt="Dinesh Nikam" class="img-fluid rounded shadow" />
+            </div>
+            <div class="col-md-7" data-aos="fade-left">
+                <p>
+                    I’m a Full Stack .NET Developer with a solid foundation in ASP.NET Core MVC, SQL Server, and frontend technologies such as HTML, CSS, Bootstrap, and JavaScript.
+                    I hold a Master’s degree in MBA IT from SPPU, with a specialization in Software Development, and I focus on building dynamic, responsive, and user-friendly web applications.
+                </p>
+                <p>
+                    I’m deeply passionate about coding and problem-solving, with a constant drive to learn and implement new technologies in practical, real-world scenarios.
+                    My goal is to grow as a software engineer and contribute to impactful, innovative projects within a collaborative development environment.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 s" data-aos="fade-up">Education</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8" data-aos="fade-up" data-aos-delay="100">
+                    <ul class="timeline list-unstyled">
+                        <li class="mb-4">
+                            <h5 class="s">MBA (IT) - Savitribai Phule Pune University</h5>
+                            <small>2025 – Completed</small>
+                        </li>
+                        <li class="mb-4">
+                            <h5 class="s">B.A. Economics - PVG college, Nashik</h5>
+                            <small>2022 - Completed</small>
+                        </li>
+                        <li class="mb-4">
+                            <h5 class="s">HSC - Nashik</h5>
+                            <small>2018 - Completed</small>
+                        </li>
+                        <li>
+                            <h5 class="s">SSC - Nashik</h5>
+                            <small>2016 - Completed</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container py-5 p">
+        <h2 class="text-center mb-5" data-aos="fade-up s">Skills & Tech Stack</h2>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-box p-3 border rounded shadow-sm text-center card shadow-sm h-100 p">
+                    <i class="fas fa-laptop-code fa-2x text-primary mb-3"></i>
+                    <h5>Frontend</h5>
+                    <p>HTML5, CSS3, Bootstrap 5, JavaScript</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 " data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-box p-3 border rounded shadow-sm text-center card shadow-sm h-100 p">
+                    <i class="fas fa-server fa-2x text-primary mb-3"></i>
+                    <h5>Backend</h5>
+                    <p>C#, ASP.NET Core MVC, Entity Framework Core</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 p" data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-box p-3 border rounded shadow-sm text-center card shadow-sm h-100 p">
+                    <i class="fas fa-database fa-2x text-primary mb-3"></i>
+                    <h5>Database</h5>
+                    <p>SQL Server, LINQ</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 p" data-aos="fade-up" data-aos-delay="400">
+                <div class="skill-box p-3 border rounded shadow-sm text-center card shadow-sm h-100 p">
+                    <i class="fas fa-tools fa-2x text-primary mb-3"></i>
+                    <h5>Tools</h5>
+                    <p>Visual Studio 2022, SSMS, Git, GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 h-100 s" data-aos="fade-up">Projects</h2>
+
+            <div class="row g-4 p">
+                <!-- Project 1 -->
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card shadow-sm h-100">
+                        <img src="~/images/portfolio.png" class="card-img-top project-image" class="card-img-top project-image" alt="Personal Portfolio" />
+                        <div class="card-body">
+                            <h5 class="card-title p">Personal Portfolio Website</h5>
+                            <p class="p"><strong>Technologies:</strong> HTML5, CSS3, Bootstrap 5, JavaScript</p>
+                            <p class="p">Designed and developed a personal portfolio website to showcase skills, projects, and experience with smooth scroll animations and responsive design.</p>
+                            <p class ="p"><strong>Role:</strong> Full Frontend Developer</p>
+                            <a href="#" class="btn btn-primary" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-6 p" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card shadow-sm h-100 p">
+                        <img src="~/images/SmartMedico.png" class="card-img-top project-image" alt="Smart Medico" />
+                        <div class="card-body">
+                            <h5 class="card-title">Smart Medico: Digital Notifier for Doctors</h5>
+                            <p class="p"><strong>Technologies:</strong> Windows Forms (.NET), SQL Server </p>
+                            <p class="p">
+                                Developed a Windows-based software application that serves as a digital notifier for doctors. The system helps medical professionals manage appointments, Patient history and streamline patient records efficiently, enhancing workflow in healthcare settings.
+                            </p>
+                            <p class="p"><strong>Role:</strong> Full Stack Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-6" data-aos-delay="300">
+                    <div class="card shadow-sm h-100 p">
+                        <img src="~/images/ManagePro.png" class="card-img-top project-image" alt="ManagePro Project Screenshot" />
+                        <div class="card-body">
+                            <h5 class="card-title p">ManagePro</h5>
+                            <p class="p">
+                                <strong>Technologies:</strong> ASP.NET Core MVC 9.0, Entity Framework Core, CSS, JavaScript, SQL Server, Bootstrap, C#
+                            </p>
+                            <p class="p">
+                                ManagePro is a robust ASP.NET Core MVC 9.0 web application designed to efficiently manage product data with full CRUD (Create, Read, Update, Delete) functionality. It features a real-time dashboard, product history tracking, and a secure login/registration system to ensure both usability and data integrity.
+                            </p>
+                            <p class="p"><strong>Role:</strong> Full Stack Developer</p>
+                            <a href="https://github.com/dineshsnikam/ManagePro" target="_blank" class="btn btn-primary mt-2">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 class="text-center mb-5 p" data-aos="fade-up">Experience</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <ul>
+                    <li class="list-group-item">
+                        <h5>Intern – Next Level Computech Solutions (1 Jan 2025 to March 2025)</h5>
+                        <p>Developing and maintaining web applications using ASP.NET and C#.</p>
+                        <p>Collaborating with the development team to implement new features and improve existing functionalities.</p>
+                        <p>Working on database integration and optimizing SQL queries for better performance.</p>
+                        <p>Debugging and troubleshooting application issues to enhance software efficiency.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses / Certifications Section -->
+    <section id="certifications" class="container py-5 p">
+        <h2 class="text-center mb-5" data-aos="fade-up s">Courses / Certifications</h2>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-box p-3 border rounded shadow-sm text-center card shadow-sm h-100 p">
+                    <i class="fas fa-code fa-2x text-success mb-3"></i>
+                    <h5 class="p">IANT Institute Nashik</h5>
+                    <p class="p">Full Stack in ASP.NET - 2025</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-box p-3 border rounded shadow-sm text-center card shadow-sm h-100">
+                    <i class="fas fa-laptop fa-2x text-success mb-3"></i>
+                    <h5 class="p">Great Learning</h5>
+                    <p class="p">Front End Development</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-box p-3 border rounded shadow-sm text-center card shadow-sm h-100">
+                    <i class="fas fa-robot fa-2x text-success mb-3"></i>
+                    <h5 class="p">Great Learning</h5>
+                    <p class="p">Introduction to Artificial Intelligence</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p" data-aos="fade-up" data-aos-delay="400">
+                <div class="skill-box p-3 border rounded shadow-sm text-center card shadow-sm h-100 p">
+                    <i class="fas fa-c fa-2x text-success mb-3 p"></i>
+                    <h5 class="p">MKCL Mumbai</h5>
+                    <p class="p">C Programming</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="skill-box p-3 border rounded shadow-sm text-center card shadow-sm h-100">
+                    <i class="fab fa-git-alt fa-2x text-success mb-3"></i>
+                    <h5 class="p">Udemy</h5>
+                    <p class="p">Git from Basics to Advanced</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container p">
+            <h2 class="text-center mb-5" data-aos="fade-up">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                    <!-- Success message placeholder -->
+                    <div id="successMessage" class="alert alert-success mt-3" style="display:none;">
+                        Form submitted successfully!
+                    </div>
+                </div>
+                <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <h5>Email</h5>
+                    <p>dnikam.dev@gmail.com</p>
+                    <h5>Phone</h5>
+                    <p>+91 78XXXXXX86</p>
+                    <h5>GitHub</h5>
+                    <p><a href="https://github.com/dineshsnikam" target="_blank">github.com/DineshNikam</a></p>
+                    <h5>LinkedIn</h5>
+                    <p>
+                        <a href="https://www.linkedin.com/in/dinesh-nikam-dev/" target="_blank">linkedin.com/dineshnikam</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Form submit handler
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // page reload 
+
+            // Success message
+            document.getElementById('successMessage').style.display = 'block';
+
+            // Optional: form fields clear
+            this.reset();
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const roles = ["Full Stack .NET Developer", "C# Programmer", "ASP.NET Core Expert", "SQL Server Specialist", "React Developer"];
+            let index = 0;
+            let charIndex = 0;
+            const typingText = document.getElementById("typing-text");
+
+            function type() {
+                if (charIndex < roles[index].length) {
+                    typingText.textContent += roles[index].charAt(charIndex);
+                    charIndex++;
+                    setTimeout(type, 100);
+                } else {    
+                    setTimeout(erase, 2000);
+                }
+            }
+
+            function erase() {
+                if (charIndex > 0) {
+                    typingText.textContent = roles[index].substring(0, charIndex - 1);
+                    charIndex--;
+                    setTimeout(erase, 50);
+                } else {
+                    index = (index + 1) % roles.length;
+                    setTimeout(type, 500);
+                }
+            }
+
+            type();
+        });
+    </script>
+    <script src="~/js/index.js"></script>
+    <script src="~/js/Light.js"></script>
+</body>
+</html>
