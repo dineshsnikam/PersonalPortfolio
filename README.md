@@ -13,13 +13,14 @@ This project is a personal portfolio website built using **ASP.NET Core MVC** co
 ## Features
 
 - Responsive design that works seamlessly across desktops, tablets, and mobile devices
-- Smooth scroll animations using AOS library
-- Interactive hero section with typewriter effect
-- Detailed education and skills sections
-- Project showcase with images, descriptions, and links
-- Experience and certifications listed clearly
-- Contact section with social media links
-- Downloadable resume functionality
+- Smooth scroll animations using AOS (Animate On Scroll) library for engaging user experience
+- Interactive hero section with typewriter effect to grab attention dynamically
+- Detailed education and skills sections presented in a clean, readable layout
+- Project showcase with images, descriptions, and GitHub/live links
+- Experience and certifications listed clearly to highlight qualifications
+- Contact section with integrated social media profile links
+- Downloadable resume functionality with one-click access
+- Dark Mode Toggle for enhanced accessibility and modern user experience across all environments
 
 ---
 
