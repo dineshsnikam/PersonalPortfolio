@@ -31,7 +31,7 @@ This project is a personal portfolio website built using **ASP.NET Core MVC** co
 - JavaScript (including typewriter animation)
 - AOS (Animate On Scroll) Library
 - Font Awesome Icons
-- Google Fonts (Poppins)
+- Google Fonts (Poppins
 - SQL Server (for backend data management if applicable)
 - Visual Studio 2022
 
